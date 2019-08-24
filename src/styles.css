@@ -1,0 +1,23 @@
+.App {
+  font-family: sans-serif;
+  /* text-align: center; */
+}
+
+.square {
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 1px solid #999999;
+  background: #fff;
+  float: left;
+  margin: -1px;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.clearFix::after {
+  content: "";
+  clear: both;
+  display: table;
+}

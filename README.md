@@ -1,2 +1,0 @@
-# GameApp
-Created with CodeSandbox
