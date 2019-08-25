@@ -1,13 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Game from "./game";
+import Routing from "./routing";
 
 import "./styles.css";
 
 function App() {
   return (
     <div className="App">
-      <Game />
+      <Routing />
     </div>
   );
 }
